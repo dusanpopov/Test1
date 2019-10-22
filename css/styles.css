@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+
+/* HEADER */
+
+.main-header{
+    text-align: center;
+    background-color:#141414;
+}
+
+.site-title > h1{
+    font-size: 6rem;
+    font-family: 'Lobster', cursive;
+    color: #C73339;
+    text-shadow: 1px 1px #fff;
+
+}
+
+.site-subtitle{
+    font-size: 2rem;
+    margin-top: 1.6rem;
+    color: rgb(6, 89, 172);
+}
+
+
+
+
+/* NAVBAR */
+
+
+.main-navbar__list{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.main-navbar__list-item{
+    margin: 2rem 1rem;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+
+.main-navbar__link{
+    color: #fff;
+}
+
+.main-navbar__link:hover{
+    color:  rgb(172, 172, 172);
+    transition: .4s ease;
+}
+
+/* CARD CONTAINER */
+
+.card-container{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-gap: 1rem;
+}
+
+.card {
+    box-shadow: 0px 1px 5px #555;
+    background-color: white;
+    margin-top: 1.6rem;
+}
+.card__title {
+    font-size: 2rem;
+    margin: 1.6rem 0;
+    text-align: center;
+}
+.card__description {
+    padding: .5rem;
+    line-height: 1.6em;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.socials > a{
+    color: black;
+    padding: .7rem 2.2rem;
+}
+
+.fab:hover{
+    color: red;
+    transition: .4s ease;
+    transform: translateY(-.3rem);
+}
+
+@media screen and (max-width: 520px){
+    h1{
+        font-size: 4rem;
+    }
+
+    .main-navbar__list-item{
+        font-size: 1.6rem;
+    }
+}
