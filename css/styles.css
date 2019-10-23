@@ -58,11 +58,13 @@ img{
 .main-navbar__list-item{
     margin: 2rem 1rem;
     font-size: 2.4rem;
-    text-transform: uppercase;
+   
+   
 }
 
 .main-navbar__link{
     color: #fff;
+    font-family: 'Lobster', cursive;
 }
 
 .main-navbar__link:hover{
