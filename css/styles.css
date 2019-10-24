@@ -21,6 +21,10 @@ img{
     width: 100%;
 }
 
+body{
+    background-color: #718093;
+}
+
 
 /* HEADER */
 
@@ -37,7 +41,7 @@ img{
     font-size: 6rem;
     font-family: 'Lobster', cursive;
     color: #C73339;
-    text-shadow: 1px 1px #fff;
+    text-shadow: 1px 1px #17212b;
 
 }
 
