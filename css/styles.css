@@ -129,4 +129,8 @@ body{
     .main-header{
         flex-direction: column;
     }
+
+    .main-navbar__list-item{
+        font-size: 1.8rem;
+    }
 }
